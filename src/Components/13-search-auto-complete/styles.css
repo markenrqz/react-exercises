@@ -1,0 +1,44 @@
+.search-auto-complete-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-container{
+    position: relative;
+}
+
+.input-container input {
+  padding: 15px 20px;
+  font-size: 15px;
+  width: 200px;
+}
+
+.dropdown {
+  border: 1px solid #000000;
+  margin: 0px;
+  padding: 0px;
+  width: 240px;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 100%;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li.highlighted {
+  background-color: #a5a5a5;
+}

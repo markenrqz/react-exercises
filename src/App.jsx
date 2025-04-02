@@ -10,46 +10,50 @@ import ScrollIndicator from "./Components/9-scroll-indicator/index.jsx";
 import TabTest from "./Components/10-custom-tabs/tab-test.jsx";
 import ModalTest from "./Components/11-custom-modal-popup/modal-test.jsx";
 import GithubProfileFinder from "./Components/12-github-profile-finder/index.jsx";
+import SearchAutoComplete from "./Components/13-search-auto-complete/index.jsx";
 
 const App = () => {
   return (
     <div className="App">
       {/* Accordion Component */}
-      <Accordion />
+      {/* <Accordion /> */}
 
       {/* Random Color Component */}
-      <RandomColor />
+      {/* <RandomColor /> */}
 
       {/* Star Rating Component */}
-      <StarRating />
+      {/* <StarRating /> */}
 
       {/* Image Slider Component */}
-      <ImageSlider
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      />
+      /> */}
 
       {/* Tree View / Recursive Side Bar Menu */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
 
       {/* QR Code Generator */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
 
       {/* Light and Dark Theme Switch */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
 
       {/* Scoll indicator component */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
 
       {/* Custom tabs component */}
-      <TabTest/>
+      {/* <TabTest/> */}
 
       {/* Custom modal component */}
-      <ModalTest />
+      {/* <ModalTest /> */}
 
       {/* Github profile finder component */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      {/* Search Auto Complete */}
+      <SearchAutoComplete />
     </div>
   );
 };
